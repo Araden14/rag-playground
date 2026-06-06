@@ -1,0 +1,5 @@
+.env
+docs/
+chromadb/
+node_modules/
+files.json
