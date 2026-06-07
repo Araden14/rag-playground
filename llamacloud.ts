@@ -53,5 +53,8 @@ async function ParseDocument(_file_id: string, ctx: AppContext) {
 }
 
 export async function CompareFiles(files: FileEntry[], ctx: AppContext) {
-  throw "Not implemented";
+  const dir = readdirSync(ctx.DATA_DIRS.original_documents);
+  // dir.map((item) => {
+  //   console.log(item);
+  // });
 }
