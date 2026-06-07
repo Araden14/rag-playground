@@ -1,5 +1,5 @@
 .env
-docs/
+data/
 chromadb/
 node_modules/
 files.json
